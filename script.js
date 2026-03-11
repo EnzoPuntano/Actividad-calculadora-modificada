@@ -88,3 +88,31 @@ function confetti() {
 window.onload = function() {
     display.value = displayValue;
 };
+
+// Captura la tecla
+document.addEventListener('keydown', function(event) {
+const tecla = event.key;
+
+// Si es un número (0-9)
+if (tecla >= '0' && tecla <= '9') {
+document.getElementById('display').value += tecla;
+}
+// Si es un operador
+if (['+', '-', '*', '/'].includes(tecla)) {
+document.getElementById('display').value += ' ' + tecla + ' ';
+}
+// Si es Enter o = para calcular
+if (tecla === 'Enter' || tecla === '=') {
+// Ejemplo funcional: eval(document.getElementById('display').value)
+document.getElementById('display').value = eval(document.getElementById('display').value);
+}
+// Si es Borrar (Backspace)
+if (tecla === 'Backspace') {
+let valor = document.getElementById('display').value;
+document.getElementById('display').value = valor.slice(0, -1);
+}
+// Si es ESC para limpiar todo
+if (tecla === 'Escape') {
+document.getElementById('display').value = '';
+}
+});
