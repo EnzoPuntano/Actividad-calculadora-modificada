@@ -7,30 +7,41 @@
 <link rel="stylesheet" href="./CSS/style.css">
 </head>
 <body>
-    <div class="calculator">
-        <h1>Calculadora básica</h1>
-        <input type="text" id="display" disabled />
-        <div class="buttons">
-            <button onclick="press('7')">7</button>
-            <button onclick="press('8')">8</button>
-            <button onclick="press('9')">9</button>
-            <button onclick="press('/')">÷</button>
-            <button onclick="press('4')">4</button>
-            <button onclick="press('5')">5</button>
-            <button onclick="press('6')">6</button>
-            <button onclick="press('*')">×</button>
-            <button onclick="press('1')">1</button>
-            <button onclick="press('2')">2</button>
-            <button onclick="press('3')">3</button>
-            <button onclick="press('-')">−</button>
-            <button onclick="press('0')">0</button>
-            <button onclick="press('.')">.</button>
-            <button onclick="calculate()">=</button>
-            <button onclick="press('+')">+</button>
-            <button onclick="clearDisplay()" class="clear">Borrar</button>
 
-        </div>
+  <div id="overlay">
+    <div id="modal">
+      <h2>¡Hola! 👋</h2>
+      <p>¿Cómo te llamás?</p>
+      <input type="text" id="nombre-input" placeholder="Tu nombre..." maxlength="20" />
+      <button id="btn-entrar">¡Entrar!</button>
     </div>
+  </div>
+
+  <div class="calculator">
+    <div id="saludo"></div>
+    <h1>Calculadora básica</h1>
+    <input type="text" id="display" disabled />
+    <div class="buttons">
+      <button onclick="press('7')">7</button>
+      <button onclick="press('8')">8</button>
+      <button onclick="press('9')">9</button>
+      <button onclick="press('/')">÷</button>
+      <button onclick="press('4')">4</button>
+      <button onclick="press('5')">5</button>
+      <button onclick="press('6')">6</button>
+      <button onclick="press('*')">×</button>
+      <button onclick="press('1')">1</button>
+      <button onclick="press('2')">2</button>
+      <button onclick="press('3')">3</button>
+      <button onclick="press('-')">−</button>
+      <button onclick="press('0')">0</button>
+      <button onclick="press('.')">.</button>
+      <button onclick="calculate()">=</button>
+      <button onclick="press('+')">+</button>
+      <button onclick="clearDisplay()" class="clear">Borrar</button>
+    </div>
+  </div>
+
 </body>
 <script src="./JS/script.js"></script>
 </html>
