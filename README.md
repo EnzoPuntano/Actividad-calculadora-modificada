@@ -1,5 +1,5 @@
 <img width="1366" height="650" alt="image" src="https://github.com/user-attachments/assets/83a2dc0b-07d2-4e83-899e-5ea488cec096" />
 <img width="1366" height="650" alt="image" src="https://github.com/user-attachments/assets/f6bb4199-53f0-4cdf-aa65-9172f5592610" />
 
-Esta calculadora es para uso infantil, la cual sirve para aquellos que les agrade hacer operaciones matemáticas, cuenta con todas las funciones principales y es de uso interactivo, saludando al usuario cuando ingresa su nombre, además como detalle de diseño, se muestran símbolos nmatemáticos flotantes.
+Esta calculadora es para uso infantil, la cual sirve para aquellos que les agrade hacer operaciones matemáticas, cuenta con todas las funciones principales y es de uso interactivo, saludando al usuario cuando ingresa su nombre, además como detalle de diseño, se muestran símbolos matemáticos flotantes.
 Instalación: para ejecutar este repositorio, es necesario copiar la URL de el repositorio la cuan es la siguiente: https://github.com/EnzoPuntano/Actividad-calculadora-modificada , en el escritorio abrir el terminal de Git BASH Here, donde ejecutamos el siguiente comando: git clone (url del repositorio), y presionar ENTER, una vez hecho esto, se genera la carpeta con todos los archivos de la calculadora, y como paso final, ingresar al archivo HTML y ejecutar desde Go Live o iniciar depuración.
